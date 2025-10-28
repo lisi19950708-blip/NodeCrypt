@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == ''
+    if: github.repository == 'shuaiplus/nodecrypt'
     steps:
       - uses: actions/checkout@v4
       - name: Log in to GitHub Container Registry
